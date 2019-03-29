@@ -215,3 +215,49 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+
+  .social {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  .blog {
+    width: 100%;
+  }
+
+  .blog-item {
+    padding-left: 10%;
+  }
+
+  .pagination {
+    padding-bottom: 50px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .sidebar-cotents {
+    padding-left: 20px;
+  }
+
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
+}

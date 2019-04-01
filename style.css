@@ -227,6 +227,7 @@ footer {
 
   .nav-list-item {
     width: 100%;
+    margin: 0;
     padding-bottom: 10px;
   }
 
